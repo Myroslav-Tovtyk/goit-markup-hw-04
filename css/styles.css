@@ -12,7 +12,7 @@
   --border-color: #EEEEEE;
 }
 ul {
-  list-style: none;
+  list-style: none;  
 }
 ul, li, h1, h2, h3, p{
   margin: 0;
@@ -316,11 +316,12 @@ font-style: normal;
 .but-list .but +.but{
  margin-left: 8px;
 }
-.list .feachers-img{
+.list .feachers-img{ 
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
 .feachers-img:nth-child(3n){
   margin-right: 0;
 }
@@ -333,7 +334,10 @@ font-style: normal;
   border: var(--border-color) solid 1px;
 }
 
-  .section-name {
+.imgage{
+  display: block;
+}
+.section-name {
   color: var(--title-text-color);  
   margin-bottom: 4px;
 
