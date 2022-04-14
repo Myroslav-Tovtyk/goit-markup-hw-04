@@ -333,10 +333,12 @@ font-style: normal;
   padding: 20px 24px;
   border: var(--border-color) solid 1px;
 }
-
-.imgage{
+img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 .section-name {
   color: var(--title-text-color);  
   margin-bottom: 4px;
