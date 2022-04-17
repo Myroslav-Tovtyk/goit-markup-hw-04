@@ -309,7 +309,8 @@ margin-left: 10px;
   height: 44px;
 }
 
-.link-socials:hover{
+.link-socials:hover,
+.link-socials:focus {
   background-color: #2196F3;
   fill: var(--button-color);  
 }
@@ -362,8 +363,9 @@ margin-left: 10px;
     border-radius: 50%;
     fill: var(--button-color);
   }
-  .link-socials-footer:hover{
-  background-color: #2196F3; 
+  .link-socials-footer:hover,
+  .link-socials-footer:focus{
+  background-color: #2196F3;
 }
   .item-socials-footer + .item-socials-footer{
     margin-left: 10px;
@@ -425,19 +427,18 @@ font-style: normal;
   line-height: 1.6;
   text-align: center;
 }
-.buttons:hover {
+.buttons:hover,
+.buttons:focus {
   color: var(--button-color);
   background-color: var(--accent-color);
 }
 .feachers-card {
  text-decoration: none;
- display: block;
-
 }
 .feachers-card:hover,
 .feachers-card:focus{
  
-   background-color: lime;
+   background-color: teal;
 }
 .but-list{
   display: flex;
