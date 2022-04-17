@@ -14,11 +14,11 @@
 ul {
   list-style: none;  
 }
-ul, li, h1, h2, h3, p{
+ul, li, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
-.lnk{
+.lnk {
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ body {
   letter-spacing: 0.03em;
   font-display: swap;
 }
-.container{
+.container {
   width: 1200px;
   align-items: center;
   margin: 0 auto;
@@ -54,7 +54,7 @@ body {
   padding-right: 15px;
 }
 /* logo */
-.header{
+.header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: #ECECEC solid 1px;
@@ -118,7 +118,7 @@ color: var(--accent-color);
   margin-left: 50px;
 }
 
-.smart{  
+.smart{
   margin-right: 10px;
   fill: var(--primary-text-color);  
 }
@@ -149,7 +149,7 @@ color: var(--accent-color);
 
 
 
-.hero .hero-title {  
+.hero .hero-title {
   width: 700px;
   color: var(--button-color); 
   margin: 0 auto; 
@@ -162,7 +162,7 @@ color: var(--accent-color);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {  
+.button {
   display: block;  
   color: var(--button-color);
   background-color: var(--accent-color);
@@ -192,7 +192,7 @@ color: var(--accent-color);
   padding-bottom: 94px; 
 }
 
-.visually-hidden { 
+.visually-hidden {
   position: absolute; 
   width: 1px; 
   height: 1px; 
@@ -206,9 +206,8 @@ color: var(--accent-color);
 } 
   .list{
   display: flex;
-  flex-wrap: wrap;  
- 
-  }
+  flex-wrap: wrap; 
+}
 
  .feach-list{
   width: calc((100% - 90px) / 4);  
@@ -278,7 +277,6 @@ margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;  
-  
 }
 
 .team-position {
@@ -336,7 +334,7 @@ margin-left: 10px;
   fill: var(--primary-text-color);
 }
 .clients-svg:hover,
-:focus{
+.clients-svg:focus{
   fill: var(--accent-color);
 }
   /* footer */
@@ -389,10 +387,11 @@ margin-left: 10px;
 .footer .logo {
   color: var(--button-color); 
 }
-.logo-foot:hover {
+.logo-foot:hover,
+.logo-foot:focus {
   color: var(--accent-color);
 }
-.adress .adress-street  {
+.adress .adress-street {
 color: var(--button-color);
 font-style: normal;
 }
@@ -433,12 +432,11 @@ font-style: normal;
   background-color: var(--accent-color);
 }
 .feachers-card {
+  display: block;
  text-decoration: none;
 }
-.feachers-card:hover,
-.feachers-card:focus{
- 
-   background-color: teal;
+.feachers-card:hover {
+  background-color: teal;
 }
 .but-list{
   display: flex;
