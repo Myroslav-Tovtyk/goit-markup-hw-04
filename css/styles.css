@@ -429,14 +429,15 @@ font-style: normal;
   color: var(--button-color);
   background-color: var(--accent-color);
 }
-.feachers-card:{
-  border: 0;
-  margin: 0;
-  padding: 0;
-  
+.feachers-card {
+ text-decoration: none;
+ display: block;
+
 }
-.feachers-card:hover{
-  stroke: #EEEEEE;
+.feachers-card:hover,
+.feachers-card:focus{
+ 
+   background-color: lime;
 }
 .but-list{
   display: flex;
@@ -461,12 +462,12 @@ font-style: normal;
 .name{
   width: 370px;  
   padding: 20px 24px;
-  border: var(--border-color) solid 1px;
+  border: var(--border-color) solid 1px; 
 }
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto;  
 }
 
 .section-name {
@@ -481,4 +482,5 @@ img {
 .section-post {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--primary-text-color);
 }
