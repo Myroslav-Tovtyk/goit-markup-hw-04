@@ -10,6 +10,7 @@
   --section-bgd: #F5F4FA;
   --footer-bgd: #2F303A;
   --border-color: #EEEEEE;
+  --socials-color: #AFB1B8;
 }
 ul {
   list-style: none;  
@@ -18,7 +19,7 @@ ul, li, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
-.lnk {
+.link {
   text-decoration: none;
 }
 
@@ -89,12 +90,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-text-decoration: none;
-}
-
-.link:hover,
-.link:focus {
-color: var(--accent-color);
 }
 
 .contact {
@@ -120,7 +115,18 @@ color: var(--accent-color);
 
 .smart{
   margin-right: 10px;
-  fill: var(--primary-text-color);  
+  fill: var(--primary-text-color);
+}
+
+ .link:hover + .smart{
+color: var(--accent-color);
+fill:var(--accent-color);
+} 
+
+.link:hover,
+.link:focus{
+color: var(--accent-color);
+fill: var(--accent-color);
 }
 
 /* hero */
@@ -296,7 +302,7 @@ margin-left: 10px;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  fill: var(--primary-text-color); 
+  fill: var(--socials-color);
 }
 .list-socials{
   display: flex;
