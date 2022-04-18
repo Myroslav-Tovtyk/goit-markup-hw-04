@@ -115,20 +115,18 @@ letter-spacing: 0.02em;
 
 .smart{
   margin-right: 10px;
-  fill: var(--primary-text-color);
+  fill: currentColor;
 }
-
- .link:hover + .smart{
-color: var(--accent-color);
-fill:var(--accent-color);
-} 
 
 .link:hover,
 .link:focus{
 color: var(--accent-color);
-fill: var(--accent-color);
 }
+.link:hover + .smart,
+.link:focus + .smart{
 
+fill:var(--accent-color);
+}
 /* hero */
 .hero{  
   background-color:var(--hero-bgd);
