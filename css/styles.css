@@ -326,10 +326,11 @@ margin-left: 10px;
 }
 /* Наши клиенты */
 
+
+
+
 .clients-list{
-  width: calc((100% - 150px) / 6);
-  padding: 16px 32px;
-  border: 1px solid #AFB1B8;
+  width: calc((100% - 150px) / 6);  
 }
 .clients-list + .clients-list{
   margin-left: 30px;
@@ -339,8 +340,14 @@ margin-left: 10px;
 }
 .clients-svg:hover,
 .clients-svg:focus{
-  fill: var(--accent-color);
+  fill:var(--accent-color);
 }
+.clients-svg{
+   width: 170px;
+  height: 92px; 
+  border: 1px solid rgba(175, 177, 184, 1);
+}
+
   /* footer */
   .foot{
     display: flex;
