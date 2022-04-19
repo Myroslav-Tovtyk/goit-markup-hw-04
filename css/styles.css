@@ -324,8 +324,7 @@ margin-left: 10px;
    0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;  
 }
-/* Наши клиенты */
-
+/* Постоянные клиенты */
 
 .list{
   display: flex;
@@ -335,7 +334,6 @@ margin-left: 10px;
 .clients-list + .clients-list{
   margin-left: 30px;
 }
-
 
 .clients-svg {
   fill: rgba(175, 177, 184, 1);  
@@ -349,10 +347,13 @@ margin-left: 10px;
   height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
 }
-.clients-link:hover,
-.clients-link:focus{
-  fill: var(--accent-color);
+.clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg{
+  fill: var(--accent-color);  
   
+}
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--accent-color);
 }
 
